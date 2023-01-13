@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 ''' author: Grace Yuan
-    last update date: 1/12/2023
+    last update date: 1/13/2023
 '''
 
 CITY_DATA = { 'chicago': 'chicago.csv',
