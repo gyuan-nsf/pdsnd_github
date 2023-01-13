@@ -1,13 +1,10 @@
-"""
-    Response to the reviewer suggestion:
-    1. add the display_raw_data() to satisfy the interactive experience requirement
-    2. for the most common trip, I used the groupby, fix the print out
-"""
-
-
 import time
 import pandas as pd
 import numpy as np
+
+''' author: Grace Yuan
+    last update date: 1/12/2023
+'''
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
